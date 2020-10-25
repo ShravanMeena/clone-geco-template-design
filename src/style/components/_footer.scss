@@ -1,0 +1,54 @@
+.footer {
+  width: 100%;
+  height: 100vh;
+  background: url("../../assets/just_gamer_bg.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  cursor: pointer;
+  margin-top: 10vh;
+  position: relative;
+  .footerTop {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h4 {
+      color: #fff;
+      font-weight: 700;
+      font-size: 60px;
+    }
+    p {
+      color: #b0c4d7;
+      font-size: 22px;
+      font-weight: 400;
+      text-align: center;
+      margin: 20px 0px;
+    }
+    button {
+      outline: none;
+      border: none;
+      background: #fff;
+      width: 160px;
+      height: 50px;
+      font-size: 16px;
+      color: #000000;
+      letter-spacing: 1px;
+      cursor: pointer;
+      &:hover {
+        background: #e4a101;
+        color: #fff;
+      }
+    }
+  }
+
+  .footerImg {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+}
